@@ -13,7 +13,6 @@ Thermodynamic & Moisture Predictors
 •	Surface Instability: Surface-Based Convective Available Potential Energy (CAPE, J kg-1)
 •	Convective Inhibition: Convective Inhibition (CIN, J kg-1)
 •	Lifted Index: Lifted Index (LI, K)
-•	Precipitation: Convective Precipitation Accumulation (kg m-2)
 Kinematic & Dynamics Predictors
 •	Surface Wind Components:U and V zonal/meridional surface wind components (m s-1)
 •	Low-Level Wind Components: 850-hPa, U and V zonal/meridional wind components (m s-1)
