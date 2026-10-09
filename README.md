@@ -1,9 +1,9 @@
 2-D CNN and U-Net Models for Probabilistic Thunderstorm Nowcasting
 This repository contains the official code, preprocessing pipelines, model architectures, and evaluation scripts for short-term (1 - 8 h) probabilistic thunderstorm nowcasting over the Contiguous United States (CONUS).
-The models ingest operational High-Resolution Rapid Refresh (HRRR) Numerical Weather Prediction (NWP) fields to predict the probability of thunderstorm occurrence (defined by radar composite reflectivity > 30/35 dBZ) mapped against Multi-Radar/Multi-Sensor (MRMS) observations.
+The models ingest operational High-Resolution Rapid Refresh (HRRR) Numerical Weather Prediction (NWP) fields to predict the probability of thunderstorm occurrence (defined by radar composite reflectivity > 35 dBZ) mapped against Multi-Radar/Multi-Sensor (MRMS) observations.
 CONUS Spatial Domain & Grid Configuration
-•	Spatial Coverage: Contiguous United States (25o  - N 50oN, 120oW -72oW)
-•	Grid Resolution: 0.1otimes 0.1o ~ 10 km horizontal resolution)
+•	Spatial Coverage: Contiguous United States (25  - 50 degree N, 120 -72 degree W)
+•	Grid Resolution: 0.1 x 0.1 degree ~ 10 km horizontal resolution)
 •	Target Leads: Forecast lead times from f01 to f08 (1 - 8 hours)
 Predictor Variables
 Input features are extracted directly from operational HRRR model initialization grids and standardized via zero-mean, unit-variance scaling (StandardScaler):
